@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper {
+    width: 970px;
+    margin: 0px auto;
+    background-color: rgb(36, 26, 36);
+    background: radial-gradient(rgba(36, 26, 36, 0.5), rgba(36, 26, 36, 1)); 
+}
+#header {
+    background-color: rgb(228, 220, 220)
+}
+
+h1 {
+    font-family: Comic Sans MS;
+    padding: 10px;
+    display: inline-block;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 10px 10px 450px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.photoOfMe {
+    width: 40%;
+    height: 290px;
+    margin: 15px;
+    border: 5px solid silver;
+}
+
+#about {
+    height: auto;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    background: linear-gradient(to right, rgb(247, 244, 245), rgb(252, 229, 233));
+    width: 50%;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+ h4 {
+     background: linear-gradient(#ecebeb, rgb(100, 100, 100), #ecebeb);
+     margin: 0px;
+     padding: 10px;
+     width: 50%;;
+     font-size: 20px;
+     color: rgb(233, 220, 220);
+     display: inline-block;
+     vertical-align: top;
+ }
+ h5 {
+    background: linear-gradient(#ecebeb, rgb(100, 100, 100), #ecebeb);
+    margin: 0px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(233, 220, 220);
+}
+ 
+ #projects {
+     width: 30%;
+     margin: 15px 20px;
+     display: inline-block;
+     vertical-align: top;
+     background: linear-gradient(to right, rgb(247, 244, 245), rgb(252, 229, 233));
+     font-size: 17px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .projects {
+     width: 100%;
+ }
+ .logos {
+     width: 35px;
+     height: 35px;
+     margin: 5px;
+ }

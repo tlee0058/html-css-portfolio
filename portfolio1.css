@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper {
+    width: 970px;
+    margin: 15px auto 0px auto;
+    background-color: rgb(36, 26, 36);
+    background: radial-gradient(rgba(36, 26, 36, 0.5), rgba(36, 26, 36, 1)); 
+}
+#header {
+    background-color: rgb(228, 220, 220)
+}
+
+h1 {
+    font-family: Comic Sans MS;
+    padding: 10px;
+    display: inline-block;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 10px 10px 450px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.photoOfMe {
+    width: 40%;
+    height: 290px;
+    margin: 20px;
+    border: 5px solid silver;
+}
+#combine {
+    display: inline-block;
+    vertical-align: top;
+    width: 52%;
+    height: 320px;
+    margin-top: 20px;
+}
+h4 { /*About label*/
+    background: linear-gradient(#ecebeb, rgb(100, 100, 100), #ecebeb);
+    padding: 10px;
+    width: auto;
+    display: block;
+    font-size: 20px;
+    color: rgb(233, 220, 220);
+}
+.content { /*pink area*/
+    background: linear-gradient(to right, rgb(247, 244, 245), rgb(252, 229, 233));
+    width: auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    height: 238px;
+}
+.combine-projects { /*combining h4, .content(wording), .projects(img), 
+    .logos and h5 (tiny labels) */
+    display: inline-block;
+    vertical-align: center;
+    width: 30%;
+    margin-left: 22px;
+    margin-right: auto;
+} 
+.combine-projects p img {
+    width: 100%;
+}
+
+h5 {
+    background: linear-gradient(#ecebeb, rgb(100, 100, 100), #ecebeb);
+    margin: 0px;
+    padding: 5px;
+    font-size: 15px;
+    color: rgb(233, 220, 220);
+}
+.logos {
+    background: linear-gradient(to right, rgb(247, 244, 245), rgb(252, 229, 233));
+    width: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.logos img {
+     width: 40px;
+     height: 40px;
+     margin: 5px;
+ }
+ button {
+     margin: auto;
+     display: block;
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: green;
+     border-radius: 10px;
+     border: black;
+     padding: 5px;
+     box-shadow: 0px 5px 5px 0 rgba(0, 0, 0, 0.5), 0px 6px 20px 0px rgba(0, 0, 0, 0.5);
+            
+ }
+ #footer {
+    width: 970px;
+    margin: 0px auto 30px auto;
+    background-color: rgb(228, 220, 220);   
+}
+h6 {
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#contacts {
+    margin: 0px auto;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+#contacts img{
+    width: 20px;
+    height: 20px;
+}
+#contacts a {
+    font-style: italic;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
